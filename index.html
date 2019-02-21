@@ -73,7 +73,7 @@ map.on('load', function() {
     setInterval(function() {
         currentImage = (currentImage + 1) % frameCount;
         map.getSource("grass").updateImage({ url: getPath() });
-    }, 200);
+    }, 500);
  
 }); 
 </script>
